@@ -15,11 +15,11 @@ public class myarray{
 }
 
 class human{ #物件
-    int sex;
-    int weight;
-    int hight;
+    int sex; #方法
+    int weight;#方法
+    int hight;#方法
 
-    public void printsum(){
+    public void printsum(){ #方法
                 
         System.out.println((hight)*(weight)/100);
 
