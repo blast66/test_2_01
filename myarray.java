@@ -3,23 +3,23 @@ public class myarray{
         int[] data = new int[1];
         data[0] = 1;
 
-        human person = new human();
-        person.sex = 1;
-        person.weight = 50;
-        person.hight = 180;
-        person.createVariable();
+        human person = new human(); #實體化物件
+        person.sex = 1; #物件.方法
+        person.weight = 50; #物件.方法
+        person.hight = 180; #物件.方法
+        person.printsum();
         
         System.out.println((data[0]));
     }
 
 }
 
-class human{
+class human{ #物件
     int sex;
     int weight;
     int hight;
 
-    public void createVariable(){
+    public void printsum(){
                 
         System.out.println((hight)*(weight)/100);
 
